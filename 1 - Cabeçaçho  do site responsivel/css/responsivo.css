@@ -1,0 +1,53 @@
+@media screen  and (max-width: 640px){
+
+nav{
+padding: 1.5rem 4rem;
+
+}
+.menu-item{
+display: none;
+
+}
+.login{
+
+display: none;
+}
+.icon-menu{
+
+    display: block;
+}
+}.icon-menu button{
+background-color: transparent;
+
+    border: none;
+    cursor: pointer;
+}
+.icon{
+    width: 24px;
+}
+
+
+
+ .tel-navegacao ul{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+.tel-navegacao .menu-item{
+
+    display: block;
+    padding: 1.2rem;
+}
+.tel-navegacao .login{
+
+    display: block;
+    padding: 1rem 2rem;
+}
+
+.tel-navegacao .login button{
+    width: 100%;
+}
+.open{
+ display: block;   
+} 
